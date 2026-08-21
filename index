@@ -14,11 +14,11 @@
 
   <link rel="apple-touch-icon"
         sizes="180x180"
-        href="https://raw.githubusercontent.com/igorhashimoto-boop/Hashimoto-Traducoes/main/hashimoto-traducoes-iphone-180.png">
+        href="https://igorhashimoto-boop.github.io/Hashimoto-Traducoes/hashimoto-traducoes-iphone-180.png">
 
   <link rel="icon"
         type="image/png"
-        href="https://raw.githubusercontent.com/igorhashimoto-boop/Hashimoto-Traducoes/main/hashimoto-traducoes-iphone-180.png">
+        href="https://igorhashimoto-boop.github.io/Hashimoto-Traducoes/hashimoto-traducoes-iphone-180.png">
 
   <style>
     html,body{
@@ -47,6 +47,7 @@
     .title{
       font-size:20px;
       font-weight:700;
+      color:#111;
     }
 
     .subtitle{
@@ -60,7 +61,26 @@
 
 <div class="wrap">
   <img class="icon"
-       src="https://raw.githubusercontent.com/igorhashimoto-boop/Hashimoto-Traducoes/main/hashimoto-traducoes-iphone-180.png">
+       src="https://igorhashimoto-boop.github.io/Hashimoto-Traducoes/hashimoto-traducoes-iphone-180.png"
+       alt="Hashimoto Traduções">
+
+  <div class="title">Hashimoto Traduções</div>
+  <div class="subtitle">Abrindo sistema...</div>
+</div>
+
+<script>
+  const APP_URL =
+    'https://script.google.com/macros/s/AKfycbwyVYa14837OxTV9AQEKLVLp5dS3U8z2dN-Q392W1cqJ_pUfsjFVQEc6Opb2ZKvxcNn/exec';
+
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      window.location.replace(APP_URL);
+    }, 300);
+  });
+</script>
+
+</body>
+</html>       src="https://raw.githubusercontent.com/igorhashimoto-boop/Hashimoto-Traducoes/main/hashimoto-traducoes-iphone-180.png">
 
   <div class="title">Hashimoto Traduções</div>
   <div class="subtitle">Abrindo sistema...</div>
